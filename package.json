@@ -1,0 +1,12 @@
+{
+  "name": "war-of-the-ring-tests",
+  "private": true,
+  "version": "5.8.0",
+  "description": "Headless test suites for the War of the Ring single-file game.",
+  "scripts": {
+    "test": "node map.test.js && node session.test.js",
+    "test:map": "node map.test.js",
+    "test:session": "node session.test.js"
+  },
+  "devDependencies": { "jsdom": ">=20" }
+}
